@@ -5,6 +5,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 import { IoMdCloseCircle } from "react-icons/io";
 import { CiSquarePlus, CiSquareMinus } from "react-icons/ci";
 import { IoBagCheckOutline } from "react-icons/io5";
+import { IoIosRemoveCircle } from "react-icons/io";
 
 const Navbar = () => {
   const toggleCart = () => {
@@ -58,53 +59,31 @@ const Navbar = () => {
         >
           <IoMdCloseCircle />
         </span>
-        <ol className="list-decimal font-semibold">
-          <li>
-            <div className="item flex my-5">
-              <div className="w-2/3 font-semibold">
-                T-shirts - Wear the Code
+        <div className="flex">
+          <ol className="list-decimal font-semibold sm:block">
+            <li>
+              <div className="item flex my-5">
+                <div className="w-2/3 font-semibold">
+                  T-shirts - Wear the Code
+                </div>
+                <div className="w-1/3 flex items-center justify-center font-semibold space-x-3">
+                  <CiSquareMinus className="mx-1 text-5xl cursor-pointer" /> 1
+                  <CiSquarePlus className="mx-1 text-5xl cursor-pointer" />
+                </div>
               </div>
-              <div className="w-1/3 flex items-center justify-center font-semibold space-x-3">
-              <CiSquareMinus className="mx-1 text-5xl cursor-pointer" /> 1
-                <CiSquarePlus className="mx-1 text-5xl cursor-pointer" />
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="item flex my-5">
-              <div className="w-2/3 font-semibold space-x-3">
-                T-shirts - Wear the Code
-              </div>
-              <div className="w-1/3 flex items-center justify-center font-semibold space-x-3">
-                <CiSquareMinus className="mx-1 text-5xl cursor-pointer" /> 1
-                <CiSquarePlus className="mx-1 text-5xl cursor-pointer" />
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="item flex my-5">
-              <div className="w-2/3 font-semibold">
-                T-shirts - Wear the Code
-              </div>
-              <div className="w-1/3 flex items-center justify-center font-semibold space-x-3">
-              <CiSquareMinus className="mx-1 text-5xl cursor-pointer" /> 1
-              <CiSquarePlus className="mx-1 text-5xl cursor-pointer" />
-              </div>
-            </div>
-          </li>
-          <li>
-            <div className="item flex my-5">
-              <div className="w-2/3 font-semibold">
-                T-shirts - Wear the Code
-              </div>
-              <div className="w-1/3 flex items-center justify-center font-semibold space-x-3">
-              <CiSquareMinus className="mx-1 text-5xl cursor-pointer" /> 1
-              <CiSquarePlus className="mx-1 text-5xl cursor-pointer" />
-              </div>
-            </div>
-          </li>
-        </ol>
-        <button className="flex mt-16 text-white bg-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-pink-600 rounded text-lg"><IoBagCheckOutline className="m-1"/>Checkout</button>
+            </li>
+          </ol>
+        </div>
+        <div className="flex">
+          <button className="flex mr-2 text-white bg-pink-500 border-0 py-2 px-3 focus:outline-none hover:bg-pink-600 rounded text-sm">
+            <IoBagCheckOutline className="m-1 text-lg" />
+            Checkout
+          </button>
+          <button className="flex mr-2 text-white bg-pink-500 border-0 py-2 px-3 focus:outline-none hover:bg-pink-600 rounded text-sm">
+            <IoIosRemoveCircle className="m-1 text-2xl" />
+            Clear Cart
+          </button>
+        </div>
       </div>
     </div>
   );
