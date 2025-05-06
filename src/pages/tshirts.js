@@ -6,12 +6,12 @@ const Tshirts = () => {
     <>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap text-center m-4">
+          <div className="flex flex-wrap justify-center gap-4 m-4">
             <Link href={"/product/wear-the-code"} className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg">
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -30,7 +30,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -49,7 +49,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -68,7 +68,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -87,7 +87,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -106,7 +106,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -125,7 +125,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -144,7 +144,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
@@ -163,7 +163,7 @@ const Tshirts = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] m-auto block"
+                  className="h-[36vh] block"
                   src="https://m.media-amazon.com/images/I/7183mkggQYL._AC_SX569_.jpg"
                 />
                 <div className="mt-4">
