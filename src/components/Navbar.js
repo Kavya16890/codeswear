@@ -6,6 +6,7 @@ import { IoMdCloseCircle } from "react-icons/io";
 import { CiSquarePlus, CiSquareMinus } from "react-icons/ci";
 import { IoBagCheckOutline } from "react-icons/io5";
 import { IoIosRemoveCircle } from "react-icons/io";
+import { MdAccountCircle } from "react-icons/md";
 
 const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
   console.log({ cart, addToCart, removeFromCart, clearCart, subTotal });
@@ -46,12 +47,21 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
           </Link>
         </ul>
       </div>
-      <div onClick={toggleCart} className="cart absolute top-4 right-0 mx-5">
-        <FaCartArrowDown className="cursor-pointer text-xl md:text-2xl" />
+      <div className="cart absolute top-4 right-0 mx-5 flex">
+        <Link href='/login'>
+        <MdAccountCircle className="cursor-pointer text-xl md:text-2xl mx-2" />
+        </Link>
+        <FaCartArrowDown
+          onClick={toggleCart}
+          className="cursor-pointer text-xl md:text-2xl"
+        />
       </div>
       <div
         ref={ref}
-        className={`sideCart z-10 h-[100vh] w-72 absolute top-0 right-0 bg-pink-100 px-8 py-10 transform transition-transform ${Object.keys(cart).length !== 0 ? 'translate-x-0' : 'translate-x-full'}`}>
+        className={`sideCart z-10 h-[100vh] w-72 absolute top-0 right-0 bg-pink-100 px-8 py-10 transform transition-transform ${
+          Object.keys(cart).length !== 0 ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
         <h1 className="text-2xl font-bold text-center">Shopping Cart</h1>
         <span
           onClick={toggleCart}

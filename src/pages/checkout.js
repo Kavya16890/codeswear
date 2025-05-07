@@ -128,7 +128,7 @@ const Checkout = ({ cart, addToCart, removeFromCart, subTotal }) => {
           </div>
         </div>
         <h2 className="container text-xl font-semibold ml-7">
-          2. Review Cart Items
+          2. Review Cart Items & Pay
         </h2>
         <div className="sideCart bg-pink-100 p-6 m-4">
           <div className="flex">
