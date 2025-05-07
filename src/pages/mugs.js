@@ -4,9 +4,9 @@ import Link from "next/link";
 const Mugs = () => {
   return (
     <>
-      <section className="text-gray-600 body-font md:w-150 lg:w-350">
+      <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap justify-center lg:text-center gap-4 m-4">
+          <div className="flex flex-wrap justify-center text-center -m-4">
             <Link
               href={"/product/wear-the-code"}
               className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-lg"
@@ -14,7 +14,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -36,7 +36,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -58,7 +58,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -80,7 +80,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -102,7 +102,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -124,7 +124,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -146,7 +146,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -168,7 +168,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">
@@ -190,7 +190,7 @@ const Mugs = () => {
               <div className="block relative rounded overflow-hidden">
                 <img
                   alt="ecommerce"
-                  className="h-[36vh] lg:m-auto block"
+                  className="h-[36vh] m-auto block"
                   src="https://m.media-amazon.com/images/I/518kNQa1cnL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
                 />
                 <div className="mt-4">

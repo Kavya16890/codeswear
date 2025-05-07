@@ -11,6 +11,7 @@ export default function App({ Component, pageProps }) {
     try {
       if (localStorage.getItem("cart")) {
         setCart(JSON.parse(localStorage.getItem("cart")));
+        saveCart(JSON.parse(localStorage.getItem("cart")));
       }
     } catch (error) {
       console.error(error);
@@ -52,7 +53,7 @@ export default function App({ Component, pageProps }) {
     if (itemCode in cart) {
       newCart[itemCode].qty = cart[itemCode].qty - qty;
     }
-    console.log(newCart[itemCode])
+    console.log(newCart[itemCode]);
     if (newCart[itemCode]["qty"] <= 0) {
       delete newCart[itemCode];
     }
@@ -69,6 +70,7 @@ export default function App({ Component, pageProps }) {
         clearCart={clearCart}
         saveCart={saveCart}
         subTotal={subTotal}
+        key={subTotal}
       />
       <Component
         {...pageProps}
